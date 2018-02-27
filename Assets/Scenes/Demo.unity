@@ -156,18 +156,27 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 78e35e5fd71e7ae4599d93db978c561f, type: 2}
+      objectReference: {fileID: 2100000, guid: 0ee32e9e544a65247a5228de2ef823da, type: 2}
     - target: {fileID: 4159163239354642, guid: 8ee0329d8d67b14438b8385935f6b19e, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.125
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4159163239354642, guid: 8ee0329d8d67b14438b8385935f6b19e, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.125
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4159163239354642, guid: 8ee0329d8d67b14438b8385935f6b19e, type: 2}
       propertyPath: m_LocalScale.z
-      value: 0.125
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 33727178382579022, guid: 8ee0329d8d67b14438b8385935f6b19e,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 4159163239354642, guid: 8ee0329d8d67b14438b8385935f6b19e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8ee0329d8d67b14438b8385935f6b19e, type: 2}
@@ -237,6 +246,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 60, y: -90.00001, z: -45.000004}
+--- !u!1 &282592182 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1764769428304286, guid: 8ee0329d8d67b14438b8385935f6b19e,
+    type: 2}
+  m_PrefabInternal: {fileID: 14082643}
+--- !u!114 &282592186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 282592182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2248b4974ee5d14886da6e151d5a9c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shipMesh: {fileID: 4300000, guid: c3dcc02857c40df4086efb5a69ee4a61, type: 3}
+  fakeMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  shipMat: {fileID: 2100000, guid: 78e35e5fd71e7ae4599d93db978c561f, type: 2}
+  fakeMat: {fileID: 2100000, guid: 0ee32e9e544a65247a5228de2ef823da, type: 2}
 --- !u!1 &300167231
 GameObject:
   m_ObjectHideFlags: 0
